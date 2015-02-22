@@ -4,9 +4,9 @@ public class HelloWorld
   public static void main (String args [])
   {
     Scanner Scan = new Scanner(System.in);
-    System.out.println("How many times would you like it to print");
-    int j = Scan.nextInt();
-    for(int i=0 ; i < j ; i++){
+    System.out.println("How many times would you like it to print/repeat Hello World?");
+    int ScanNumber = Scan.nextInt();
+    for(int i=0 ; i < ScanNumber ; i++){
       System.out.println("Hello World!");
     }
   }
